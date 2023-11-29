@@ -110,7 +110,8 @@ If you have converted the images and are ready to run the model, then you need t
 
 This is what you should get❤️
 
-![Alt text](Buildings_segmentation/rgb-footprint-extract/ready images/output1.png)
+![Alt text](Buildings_segmentation/rgb-footprint-extract/ready%20images/output1.png)
+
 
 ## Metrics
 
