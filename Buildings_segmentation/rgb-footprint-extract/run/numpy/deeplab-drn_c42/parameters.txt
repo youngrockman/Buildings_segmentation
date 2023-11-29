@@ -1,0 +1,37 @@
+backbone:drn_c42
+out_stride:8
+dataset:numpy
+data_root:/data/
+workers:2
+sync_bn:False
+freeze_bn:False
+loss_type:ce_dice
+fbeta:1
+loss_weights:[1.0, 1.0]
+num_classes:2
+dropout:[0.1, 0.5]
+epochs:1
+start_epoch:0
+batch_size:4
+test_batch_size:1
+lr:0.0001
+momentum:0.9
+weight_decay:0.0005
+nesterov:False
+no_cuda:False
+gpu_ids:[0]
+seed:1
+checkname:deeplab-drn_c42
+no_val:False
+use_wandb:False
+resume:spaceNet
+evaluate:False
+best_miou:True
+inference:True
+input_filename:C:\pythonProject1test\rgb-footprint-extract\npy images\test_image_007_new.npy
+output_filename:output7.png
+window_size:512
+stride:512
+incl_bounds:False
+bounds_kernel_size:3
+cuda:True
